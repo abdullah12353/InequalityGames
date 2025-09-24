@@ -1,0 +1,24 @@
+/* src/index.css */
+@import "tailwindcss";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.neon-bg { background: radial-gradient(1200px 600px at 10% -10%, #ff80bf20, transparent),
+                        radial-gradient(1000px 500px at 90% 10%, #80e9ff20, transparent),
+                        linear-gradient(#0b1220, #0b1220); }
+.bg-night { background: linear-gradient(180deg, #0f172a, #0b1220); }
+.park-bg { background: radial-gradient(1000px 500px at 10% -10%, #bbf7d0, transparent),
+                     radial-gradient(900px 450px at 90% 10%, #a7f3d0, transparent),
+                     linear-gradient(#ecfeff, #f0fdf4); }
+.bg-day  { background: linear-gradient(180deg, #ecfeff, #f0fdf4); }
+.road-bg { background: radial-gradient(900px 450px at 10% -10%, #fde68a40, transparent),
+                     radial-gradient(900px 450px at 90% 10%, #fef3c740, transparent),
+                     linear-gradient(#fff7ed, #ecfeff); }
+.bg-road  { background: linear-gradient(180deg, #fff7ed, #ecfeff); }
+.bubble-bg { background: radial-gradient(900px 450px at 10% -10%, #c7d2fe33, transparent),
+                       radial-gradient(900px 450px at 90% 10%, #a7f3d033, transparent),
+                       linear-gradient(#f8fafc, #f1f5f9); }
