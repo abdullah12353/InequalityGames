@@ -1,4 +1,3 @@
-import React from "react";
 import { GAMES } from "../games/registry";
 import GameCard from "../components/GameCard";
 

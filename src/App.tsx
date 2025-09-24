@@ -1,5 +1,5 @@
 import { Link, Route, Routes } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import PlayGame from "./pages/PlayGame";
 import { useProgress } from "./state/progress";
 import { GAMES } from "./games/registry";

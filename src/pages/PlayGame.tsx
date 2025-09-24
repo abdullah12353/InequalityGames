@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams, Navigate } from "react-router-dom";
 import { GAMES } from "../games/registry";
 import GameFrame from "../components/GameFrame";

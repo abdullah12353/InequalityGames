@@ -18,9 +18,9 @@ Integration
 - Register in src/games/registry.tsx (snippet at bottom)
 */
 
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Car, ChevronLeft, ChevronRight, CheckCircle2, Lock, RotateCcw, Sparkles } from "lucide-react";
+import { Car, ChevronLeft, ChevronRight, Lock, RotateCcw, Sparkles } from "lucide-react";
 import clsx from "clsx";
 
 // ---------- Types ----------

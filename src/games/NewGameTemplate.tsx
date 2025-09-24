@@ -1,6 +1,3 @@
-import React from "react";
-
-
 // Template for new games — accepts optional onCleared callback
 export default function NewGameTemplate({ onCleared }: { onCleared?: () => void }) {
 return (
